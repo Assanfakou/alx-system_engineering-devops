@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(cat head=10 | /etc/passwd)"
+echo "$(cat | head=10 /etc/passwd)"
